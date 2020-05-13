@@ -18,8 +18,14 @@ Borrowing methods using call
 ###  Array Methods
 *   .splice(index, numberofelements) //Removes elements
 *   .slice()
-*   .filter()
-*   .reduce()
+*   .filter() -> returns array
+*   .reduce() -> returns array
 *   .indexOf()
 *   .substring()
 *   .concat()
+*   Object.entries()
+*   Array.from()
+*   [...item]
+*   .isArray()
+*   .join()
+*   .map() -> returns array

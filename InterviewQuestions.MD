@@ -25,3 +25,31 @@ const flattenArray = (arr) => {
 console.log(flattenArray(test));
 
 ```
+
+1. DOM tree updates
+  
+
+
+1. Create a funciton that takes a string and returns a string with duplicate strings removed
+
+
+```
+function removeDupesInStr(sentence) {
+  const lookupObject = {};
+  
+ const sentenceArr = sentence.split(' ');
+  
+  for(let i =0; i< sentenceArr.length; i++) {
+    let word = sentenceArr[i];
+    if(lookupObject[word]) {
+      sentenceArr.splice(i, 1);
+    } else {
+      lookupObject[word] = true;
+    }
+  };
+  
+  return sentenceArr.join(' ');
+  
+}
+
+console.log(removeDupesInStr("This is a test test str"));
