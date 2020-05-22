@@ -5,10 +5,17 @@
 * document.querySelector()
 * document.querySelectorAll()
 * document.getElementById()
-* document.createTextNode()
+* document.createElement(tagName)
+* document.getElementsByTagName()
+* document.createTextNode("text")
+  
 * addEventListener(event, callback)
-* getElementsByTagName()
 * getAttribute()
+* appendChild(node)
+* parentNode()
+* childNodes()
+* insertBefore(newDiv, currentDiv)
+
 
 ## JS methods
 
@@ -18,8 +25,6 @@ Borrowing methods using call
 ###  Array Methods
 *   .splice(index, numberofelements) //Removes elements
 *   .slice()
-*   .filter() -> returns array
-*   .reduce() -> returns array
 *   .indexOf()
 *   .substring()
 *   .concat()
@@ -29,3 +34,6 @@ Borrowing methods using call
 *   .isArray()
 *   .join()
 *   .map() -> returns array
+*   .forEach() -> return array
+*   .filter() -> returns array
+*   .reduce() -> returns array
